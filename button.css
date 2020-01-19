@@ -1,0 +1,146 @@
+body{
+	background: #9CECFB;
+	background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+	background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+}
+
+h2{
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+/***************************
+		Button number 1
+*****************************/
+
+.text-content1{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.hover-border1{
+	font-family: times new roman;
+	font-size: 80px;
+	text-decoration: none;
+	position: relative;
+	color: black;
+}
+
+.hover-border1::before, .hover-border::after{
+	content: '';
+	width: 0%;
+	height: 5px;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border-radius: 10px;
+	transition: all 500ms ease; 
+}
+
+.hover-border1:hover::before{
+	left: 0%;
+	width: 100%;
+}
+
+.hover-border1::after{
+	content: '';
+	width: 0%;
+	height: 5px;
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	border-radius: 10px;
+	transition: all 500ms ease; 
+}
+.hover-border1:hover::after{
+	left: 0%;
+	width: 100%;
+}
+
+/***************************
+		Button number 2
+*****************************/
+
+.text-content2{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.hover-border2{
+	font-family: times new roman;
+	font-size: 80px;
+	text-decoration: none;
+	position: relative;
+	color: black;
+}
+
+.hover-border2::before{
+	content: '';
+	width: 10%;
+	height: 5px;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 90%;
+	border-radius: 10px;
+	transition: all 500ms ease; 
+}
+
+.hover-border2:hover::before{
+	left: 0%;
+	width: 10%;
+}
+
+.hover-border2::after{
+	content: '';
+	width: 10%;
+	height: 5px;
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+	left: 0%;
+	border-radius: 10px;
+	transition: all 500ms ease; 
+}
+.hover-border2:hover::after{
+	left: 90%;
+	width: 10%;
+}
+
+/***************************
+		Button number 3
+*****************************/
+
+.text-content3{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.hover-border3{
+	font-family: times new roman;
+	font-size: 80px;
+	text-decoration: none;
+	position: relative;
+	color: black;
+}
+
+.hover-border3::before{
+	content: '';
+	width: 0%;
+	height: 5px;
+	background-color: red;
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	border-radius: 10px;
+	transition: all 300ms ease; 
+}
+
+.hover-border3:hover::before{
+	left: 0%;
+	width: 100%;
+}
